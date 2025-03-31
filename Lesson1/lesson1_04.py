@@ -15,7 +15,7 @@ print("a%b =",a%b)      #余り
 
 """
 ●四捨五入
-round関数使用（標準関数）
+round関数使用（標準ライブラリ）
 round(number, ndigits=None)
 number を小数点以下 ndigits 桁の精度で四捨五入した値を返す。
 ndigits が省略されたり、None だった場合、入力値に最も近い整数を返す。

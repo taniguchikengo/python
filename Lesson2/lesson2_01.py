@@ -18,3 +18,17 @@ print(f"stepを-1にして逆順で表示：{lis[::-1]}")
 
 print(f"\nlen関数を使用して要素数を表示：{len(lis)}")   #len(s):オブジェクトSの長さを返す
 #参考URL:https://docs.python.org/ja/3.8/library/functions.html?highlight=len#len
+
+
+"""
+list（リスト型）
+●二次元リスト
+リストを二次元で作成することができます。
+"""
+print(f"\n●二次元リストの作成") 
+lis2_1 = [[]]                       #[[]]で空の二次元配列を宣言できる
+print(f"空の二次元リスト：{lis2_1}")
+lis2_2 = [[0,1,2],[3,4,5]]          #値を入れて二次元配列を宣言
+print(f"二次元リスト：{lis2_2}")
+print(f"lis2_2[1]を表示：{lis2_2[1]}")
+print(f"lis2_2[1][1]を表示：{lis2_2[1][1]}")

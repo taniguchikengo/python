@@ -5,6 +5,7 @@ list（リスト型）
 リストは[]角括弧で囲んで宣言します。
 リストの要素は「,」カンマで区切ります。
 リストの要素番号は0から始まります。
+参考URL:https://docs.python.org/ja/3.13/library/stdtypes.html#lists
 """
 lis = ["1月","2月","3月","4月"]
 print("●リストの作成と表示")
